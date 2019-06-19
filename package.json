@@ -1,0 +1,31 @@
+{
+  "name": "mysql-sequelize-review",
+  "version": "1.0.0",
+  "description": "MySQL database review with Sequelize",
+  "main": "./server/index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yongsooPRO/mysql-sequelize-review.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yongsooPRO/mysql-sequelize-review/issues"
+  },
+  "homepage": "https://github.com/tracyyu/mysql-sequelize-review#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.5",
+    "nodemon": "^1.18.10",
+    "sequelize": "^5.1.0"
+  }
+}
